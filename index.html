@@ -25,49 +25,55 @@
 
             <!-- Ingredients -->
             <div class="ingredients">
-                <h3>Ingredients</h3>
+                <h3 class="ing-title">Ingredients</h3>
 
                 <!-- Ingredients Elements -->
-                <div class="ing-row-one">
+                <div class="ing-row-one flex-row">
     
                     <!-- Cheese -->
                     <div class="ingredient-box">
+                        <img src="img/cheese.svg" alt="Cheese">
                         <label for="cheese">Cheese</label>
                         <input class="ingredient" type="checkbox" name="cheese" id="cheese" value="5">
                     </div>
     
                     <!-- Tomato -->
                     <div class="ingredient-box">
+                        <img src="img/tomato.svg" alt="Tomato">
                         <label for="tomato">Tomato</label>
                         <input class="ingredient" type="checkbox" name="tomato" id="tomato" value="10">
                     </div>
                 </div>
     
-                <div class="ing-row-two">
+                <div class="ing-row-two flex-row">
     
                     <!-- Egg -->
                     <div class="ingredient-box">
+                        <img src="img/fried-egg.svg" alt="Egg">
                         <label for="egg">Egg</label>
                         <input class="ingredient" type="checkbox" name="egg" id="egg" value="5">
                     </div>
     
                     <!-- Lettuce -->
                     <div class="ingredient-box">
+                        <img src="img/lettuce.svg" alt="Lettuce">
                         <label for="lettuce">Lettuce</label>
                         <input class="ingredient" type="checkbox" name="lettuce" id="lettuce" value="5">
                     </div>
                 </div>
     
-                <div class="ing-row-three">
+                <div class="ing-row-three flex-row">
     
                     <!-- Mustard -->
                     <div class="ingredient-box">
+                        <img src="img/mustard.svg" alt="Mustard">
                         <label for="mustard">Mustard</label>
                         <input class="ingredient" type="checkbox" name="mustard" id="mustard" value="3">
                     </div>
     
                     <!-- Ketchup -->
                     <div class="ingredient-box">
+                        <img src="img/ketchup.svg" alt="Ketchup">
                         <label for="ketchup">Ketchup</label>
                         <input class="ingredient" type="checkbox" name="ketchup" id="ketchup" value="3">
                     </div>
@@ -75,19 +81,19 @@
             </div>
 
             <!-- Discount Coupon -->
-            <div class="discount">
+            <div class="discount-box">
                 <label for="discount">Discount Coupon</label>
                 <input type="text" name="discount" id="discount">
             </div>
 
             <!-- Calculate Button -->
             <div class="calculate">
-                <button id="calculate-button">Calculate</button>
+                <button id="calculate-button">calculate</button>
             </div>
         </div>
 
         <!-- FOOTER -->
-        <div class="footer">
+        <div class="footer flex-row">
             <h2>Your Price <span id="final-price"></span></h2>
         </div>        
     </div>

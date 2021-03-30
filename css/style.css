@@ -30,18 +30,91 @@ body {
     height: 100px;
     align-items: center;
     background-color: #fdbc41;
+    padding-left: 40px;
 }
 
 /* MAIN */
+.main {
+    height: calc( 100vh - 200px);
+    overflow: auto;
+}
+
 /* Your Burger Name */
 #burger-name::placeholder {
     font-size: 30px;
 }
 
 #burger-name {
-    margin: 30px 0;
+    margin: 30px 0 30px 40px;
     height: 40px;
     font-size: 30px;
     border: none;
 }
-    
+
+/* Ingredients */
+.ing-title {
+    margin: 10px 0;
+}
+
+.ingredients {
+    padding-left: 40px;
+}  
+
+.ing-row-one,
+.ing-row-two,
+.ing-row-three {
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px 0 40px 0;
+}
+
+.ingredient-box img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Discount Coupon */
+.discount-box {
+    padding-left: 40px;
+}
+
+#discount {
+    margin-left: 20px;
+    width: 60%;
+    height: 20px;
+    background-color: #fff4e2;
+    border-radius: 5px;
+}
+
+/* Calculate Button */
+.calculate {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#calculate-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fdbc41;
+}
+
+#calculate-button:hover {
+    cursor: pointer;
+    background-color: #fff4e2;
+}
+
+/* FOOTER */
+.footer {
+    height: 100px;
+    background-color: #d23359;
+    padding-left: 40px;
+    align-items: center;
+    color: white;
+}
+
+/* Final Price */
+#final-price {
+    margin-left: 300px;
+}
