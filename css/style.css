@@ -1,0 +1,47 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex: row;
+}
+
+.left-area {
+    width: 50vw;
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    height: 100px;
+    align-items: center;
+    background-color: #fdbc41;
+}
+
+/* MAIN */
+/* Your Burger Name */
+#burger-name::placeholder {
+    font-size: 30px;
+}
+
+#burger-name {
+    margin: 30px 0;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+}
+    
