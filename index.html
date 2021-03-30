@@ -9,6 +9,90 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- Left Area -->
+    <div class="left-area">
+
+        <!-- HEADER -->
+        <div class="header">
+            <!-- Title -->
+        <h1>Create Your Burger</h1>
+        </div>
+
+        <!-- MAIN -->
+        <div class="main">
+            <input type="text" name="burger-name" id="burger-name" placeholder="Name Your Burger">
+
+            <!-- Ingredients -->
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+
+                <!-- Ingredients Elements -->
+                <div class="ing-row-one">
+    
+                    <!-- Cheese -->
+                    <div class="ingredient">
+                        <label for="cheese">Cheese</label>
+                        <input type="checkbox" name="cheese" id="cheese">
+                    </div>
+    
+                    <!-- Tomato -->
+                    <div class="ingredient">
+                        <label for="tomato">Tomato</label>
+                        <input type="checkbox" name="tomato" id="tomato">
+                    </div>
+                </div>
+    
+                <div class="ing-row-two">
+    
+                    <!-- Egg -->
+                    <div class="ingredient">
+                        <label for="egg">Egg</label>
+                        <input type="checkbox" name="egg" id="egg">
+                    </div>
+    
+                    <!-- Lettuce -->
+                    <div class="ingredient">
+                        <label for="lettuce">Lettuce</label>
+                        <input type="checkbox" name="lettuce" id="lettuce">
+                    </div>
+                </div>
+    
+                <div class="ing-row-three">
+    
+                    <!-- Mustard -->
+                    <div class="ingredient">
+                        <label for="mustard">Mustard</label>
+                        <input type="checkbox" name="mustard" id="mustard">
+                    </div>
+    
+                    <!-- Ketchup -->
+                    <div class="ingredient">
+                        <label for="ketchup">Ketchup</label>
+                        <input type="checkbox" name="ketchup" id="ketchup">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discount Coupon -->
+            <div class="discount">
+                <label for="discount">Discount Coupon</label>
+                <input type="text" name="discount" id="discount">
+            </div>
+
+            <!-- Calculate Button -->
+            <div class="calculate">
+                <button>Calculate</button>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <h2>Your Price <span id="final-price"></span></h2>
+        </div>        
+    </div>
+
+    <div class="empty-area"></div>
     
 
     <!-- JavaScript -->
