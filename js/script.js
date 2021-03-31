@@ -3,13 +3,16 @@
 // Alla fine, applicare uno sconto al panino se il codice inserito corrisponde
 // a quello di un coupon presente in un Array.
 
-// Devo dare un nome al panino
-var burgerName = document.getElementById('burger-name').value;
-
 // Aggiungo l'evento al bottone "Calculate"
 var calculateButton = document.getElementById('calculate-button');
 calculateButton.addEventListener('click', function() {
-    
+
+    // Se l'user non inserisce il nome, non può calcolare il prezzo
+    var burgerName = document.getElementById('burger-name').value;
+    if ( burgerName == '' ) {
+        alert("Insert your Burger's Name!")
+    }
+
     // Devo stabilire un prezzo base per il burger
     var finalPrice = 50;   
     // Stabilsico il prezzo degli ingredienti
